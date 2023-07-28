@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ally-component/static/css/main.6ed955ac.css",
+    "main.js": "/ally-component/static/js/main.f80952d7.js",
+    "index.html": "/ally-component/index.html",
+    "main.6ed955ac.css.map": "/ally-component/static/css/main.6ed955ac.css.map",
+    "main.f80952d7.js.map": "/ally-component/static/js/main.f80952d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed955ac.css",
+    "static/js/main.f80952d7.js"
+  ]
+}
