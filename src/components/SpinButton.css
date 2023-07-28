@@ -65,3 +65,9 @@
   padding: 0 16px;
   margin-bottom: 8px;
 }
+
+.hidden {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}

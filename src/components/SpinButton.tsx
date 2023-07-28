@@ -46,9 +46,6 @@ const SpinButton: React.FC = () => {
         >
           -
         </button>
-        <p aria-live='assertive' aria-hidden={false}>
-          {ariaText} {count}
-        </p>
         <input
           id='spinButtonInput'
           type='number'
@@ -68,6 +65,11 @@ const SpinButton: React.FC = () => {
         >
           +
         </button>
+        {ariaText && (
+          <p aria-live='assertive' aria-hidden={false} className='hidden'>
+            {ariaText} {count}
+          </p>
+        )}
       </div>
     </section>
   );
